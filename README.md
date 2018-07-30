@@ -76,8 +76,13 @@ while True:
 
 - Add tests to increase coverage.
 - Per-tag handlers?
-- PyPi package
+- ~~PyPi package~~
+- Fix broken pycomm package
 
 ## Contributors
 
 - Patrick McDonagh - [@patrickjmcd](http://github.com/patrickjmcd) - Owner
+
+## Special Thanks
+
+Thanks to [@ruscito](https://github.com/ruscito) for his great work on the [pycomm](https://github.com/ruscito/pycomm) package.
