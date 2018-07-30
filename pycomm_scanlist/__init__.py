@@ -1,0 +1,1 @@
+from scanlist import Scanlist
