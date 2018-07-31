@@ -2,6 +2,32 @@
 
 Python module for managing a list of tags being read from a Rockwell Automation PLC.
 
+## Installation
+
+### From PyPi
+
+```Shell
+pip install pycomm-scanlist
+```
+
+### From Source
+
+```Shell
+git clone https://github.com/patrickjmcd/pycomm-scanlist
+cd pycomm-scanlist
+python setup.py install
+```
+
+### *WORKAROUND FOR PYCOMM NOT BEING CORRECT VERSION*
+
+If you are getting the following error:
+
+```Shell
+TypeError: open() got an unexpected keyword argument 'direct_connection'
+```
+
+You will need to install the [pycomm](https://github.com/ruscito/pycomm) module from source *AFTER* installing pycomm-scanlist
+
 ## Scanlist Class
 
 The module implements a `Scanlist` class with a required parameter of IP Address. Optionally, a `plc_type` and a `change_handler` parameter can be passed to the class.
